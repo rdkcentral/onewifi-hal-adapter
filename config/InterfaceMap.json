@@ -1,0 +1,56 @@
+{
+  "description": "This file contains sample Interface mapping details. The file can be placed in the meta layer and add in the recipe file using the SRC_URI += <.json>",
+
+  "PhyList": [
+    {
+      "Index": 0,
+      "RadioList": [
+        {
+          "Index": 0,
+          "RadioName": "wl0",
+          "InterfaceList": [
+            {
+              "InterfaceName": "wl0",
+              "Bridge": "brlan0",
+              "vlanId": 0,
+              "vapIndex": 0,
+              "vapName": "private_ssid_2g"
+            },
+            {
+              "InterfaceName": "wl0.1",
+              "Bridge": "brlan2",
+              "vlanId": 0,
+              "vapIndex": 2,
+              "vapName": "mesh_backhaul_2g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1,
+      "RadioList": [
+        {
+          "Index": 1,
+          "RadioName": "wl1",
+          "InterfaceList": [
+            {
+              "InterfaceName": "wl1",
+              "Bridge": "brlan0",
+              "vlanId": 0,
+              "vapIndex": 1,
+              "vapName": "private_ssid_5g"
+            },
+            {
+              "InterfaceName": "wl1.1",
+              "Bridge": "brlan3",
+              "vlanId": 0,
+              "vapIndex": 3,
+              "vapName": "mesh_backhaul_5g"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

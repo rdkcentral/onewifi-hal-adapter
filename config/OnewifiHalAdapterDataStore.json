@@ -1,0 +1,74 @@
+{
+  "description": "This file contains WiFi configuration parameters retrieved from NVRAM. The values should be filled at boot time using a bootup script. The file can be placed in the meta layer and added to the recipe using: SRC_URI += <json-file>",
+
+  "InterfaceList": [
+    {
+      "InterfaceName": "wl0",
+      "VapIndex": 0,
+      "VapName": "private_ssid_2g",
+      "VapEnable": "",
+      "RadioEnable": "",
+      "DefaultSSID": "",
+      "DefaultPASSPHRASE": "",
+      "MgmtFramePowerControl": "",
+      "SecureModeAkm": "",
+      "SecureModeMfp": "",
+      "DefaultRadiusKey": "",
+      "DefaultCountryCode": "",
+      "DefaultWpsPin": "",
+      "DefaultWifiPwd": "",
+      "DefaultFactorySSID": ""
+    },
+    {
+      "InterfaceName": "wl0.1",
+      "VapIndex": 2,
+      "VapName": "mesh_backhaul_2g",
+      "VapEnable": "",
+      "RadioEnable": "",
+      "DefaultSSID": "",
+      "DefaultPASSPHRASE": "",
+      "MgmtFramePowerControl": "",
+      "SecureModeAkm": "",
+      "SecureModeMfp": "",
+      "DefaultRadiusKey": "",
+      "DefaultCountryCode": "",
+      "DefaultWpsPin": "",
+      "DefaultWifiPwd": "",
+      "DefaultFactorySSID": ""
+    },
+    {
+      "InterfaceName": "wl1",
+      "VapIndex": 1,
+      "VapName": "private_ssid_5g",
+      "VapEnable": "",
+      "RadioEnable": "",
+      "DefaultSSID": "",
+      "DefaultPASSPHRASE": "",
+      "MgmtFramePowerControl": "",
+      "SecureModeAkm": "",
+      "SecureModeMfp": "",
+      "DefaultRadiusKey": "",
+      "DefaultCountryCode": "",
+      "DefaultWpsPin": "",
+      "DefaultWifiPwd": "",
+      "DefaultFactorySSID": ""
+    },
+    {
+      "InterfaceName": "wl1.1",
+      "VapIndex": 3,
+      "VapName": "mesh_backhaul_5g",
+      "VapEnable": "",
+      "RadioEnable": "",
+      "DefaultSSID": "",
+      "DefaultPASSPHRASE": "",
+      "MgmtFramePowerControl": "",
+      "SecureModeAkm": "",
+      "SecureModeMfp": "",
+      "DefaultRadiusKey": "",
+      "DefaultCountryCode": "",
+      "DefaultWpsPin": "",
+      "DefaultWifiPwd": "",
+      "DefaultFactorySSID": ""
+    }
+  ]
+}
