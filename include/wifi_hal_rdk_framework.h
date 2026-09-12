@@ -1,6 +1,5 @@
 /*
- * If not stated otherwise in this file or this component's Licenses.txt file the
- * following copyright and licenses apply:
+ * If not stated otherwise in this file or this component's LICENSE file the
  *
  * Copyright 2018 RDK Management
  *

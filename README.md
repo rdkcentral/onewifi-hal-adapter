@@ -395,7 +395,7 @@ This adapter provides translation for:
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
 ```
-Copyright 2025 Comcast
+Copyright 2025 Comcast Cable Communications Management, LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
