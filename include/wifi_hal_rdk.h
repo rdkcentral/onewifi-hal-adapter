@@ -1,6 +1,4 @@
 /*
- * If not stated otherwise in this file or this component's LICENSE file the
- *
  * Copyright 2018 RDK Management
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

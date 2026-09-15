@@ -2,8 +2,6 @@
 #define _RDK_HAL_ADAPTER_H_
 
 /*
- * If not stated otherwise in this file or this component's LICENSE file the
- *
  * Copyright 2025 Comcast Cable Communications Management, LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
