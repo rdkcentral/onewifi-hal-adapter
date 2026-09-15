@@ -24,4 +24,5 @@ include_HEADERS = \
                   include/ieee802_11_defs.h \
                   include/common.h 
 
-
+EXTRA_DIST = NOTICE \
+             LICENSE 
